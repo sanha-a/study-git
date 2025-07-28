@@ -10,6 +10,49 @@ body {
     color: #FFFFFF;
 }
 
+/* header영역 */
+header{
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.2em;
+    margin-top: 1.2em;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 1em;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#navbar li {
+    margin: 1.5em 1em
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: #6d6d6d;
+}
+/* ------------------------ */
+
 .footer {
     width: 1920px;
     padding: 48px 40px;
